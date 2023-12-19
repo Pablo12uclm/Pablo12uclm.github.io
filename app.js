@@ -73,7 +73,7 @@ function efectoHabilidades(){
             pintarBarra(prestashop, 15, 3, intervalPrestashop);
         },100);
         const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 16, 4, intervalWordpress);
+            pintarBarra(wordpress, 13, 1, intervalWordpress);
         },100);
         const intervalMysql = setInterval(function(){
             pintarBarra(mysql, 16, 1, intervalMysql);
