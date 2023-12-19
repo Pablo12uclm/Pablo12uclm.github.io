@@ -62,17 +62,23 @@ function efectoHabilidades(){
         const intervalC = setInterval(function(){
             pintarBarra(c, 11, 1, intervalC);
         },100);
+        const intervalPython = setInterval(function(){
+            pintarBarra(python, 11, 2, intervalPython);
+        },100);
+        const intervalPrestashop= setInterval(function(){
+            pintarBarra(prestashop, 15, 3, intervalPrestashop);
+        },100);
         const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 11, 2, intervalWordpress);
+            pintarBarra(wordpress, 16, 4, intervalWordpress);
         },100);
-        const intervalPhotoshop = setInterval(function(){
-            pintarBarra(photoshop, 15, 3, intervalPhotoshop);
+        const intervalMysql = setInterval(function(){
+            pintarBarra(mysql, 11, 5, intervalMysql);
         },100);
-        const intervalPhp = setInterval(function(){
-            pintarBarra(php, 16, 4, intervalPhp);
+        const intervalVisual = setInterval(function(){
+            pintarBarra(visual, 16, 4, intervalVisual);
         },100);
-        const intervalIlustrator = setInterval(function(){
-            pintarBarra(ilustrator, 11, 5, intervalIlustrator);
+        const intervalCode = setInterval(function(){
+            pintarBarra(code, 11, 5, intervalCode);
         },100);
     }
 }
