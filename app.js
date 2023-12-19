@@ -70,7 +70,7 @@ function efectoHabilidades(){
             pintarBarra(python, 13, 2, intervalPython);
         },100);
         const intervalPrestashop= setInterval(function(){
-            pintarBarra(prestashop, 12, 3, intervalPrestashop);
+            pintarBarra(prestashop, 15, 3, intervalPrestashop);
         },100);
         const intervalWordpress = setInterval(function(){
             pintarBarra(wordpress, 10, 4, intervalWordpress);
@@ -79,10 +79,10 @@ function efectoHabilidades(){
             pintarBarra(mysql, 16, 5, intervalMysql);
         },100);
         const intervalVisual = setInterval(function(){
-            pintarBarra(visual, 17, 6, intervalVisual);
+            pintarBarra(visual, 14, 6, intervalVisual);
         },100);
         const intervalCode = setInterval(function(){
-            pintarBarra(code, 17, 6, intervalCode);
+            pintarBarra(code, 17, 7, intervalCode);
         },100);
     }
 }
