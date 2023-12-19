@@ -79,7 +79,7 @@ function efectoHabilidades(){
             pintarBarra(mysql, 16, 5, intervalMysql);
         },100);
         const intervalVisual = setInterval(function(){
-            pintarBarra(visual, 14, 6, intervalVisual);
+            pintarBarra(visual, 13, 6, intervalVisual);
         },100);
         const intervalCode = setInterval(function(){
             pintarBarra(code, 16, 7, intervalCode);
