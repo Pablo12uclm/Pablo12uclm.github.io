@@ -34,14 +34,18 @@ let html = document.getElementById("html");
 crearBarra(html);
 let c = document.getElementById("c");
 crearBarra(c);
+let python = document.getElementById("python");
+crearBarra(python);
+let prestashop = document.getElementById("prestashop");
+crearBarra(prestashop);
 let wordpress = document.getElementById("wordpress");
 crearBarra(wordpress);
-let photoshop = document.getElementById("photoshop");
-crearBarra(photoshop);
-let php = document.getElementById("php");
-crearBarra(php);
-let ilustrator = document.getElementById("ilustrator");
-crearBarra(ilustrator);
+let mysql = document.getElementById("mysql");
+crearBarra(mysql);
+let visual = document.getElementById("visual");
+crearBarra(visual);
+let code = document.getElementById("code");
+crearBarra(code);
 
 //Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada barar
 //para eso utilizo un arreglo, cada posiciòn pertenece a un elemento
