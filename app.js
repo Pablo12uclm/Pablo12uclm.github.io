@@ -46,7 +46,7 @@ crearBarra(ilustrator);
 //Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada barar
 //para eso utilizo un arreglo, cada posiciòn pertenece a un elemento
 //comienzan en -1 porque no tiene ninguna pintada al iniciarse
-let contadores = [-1,-1,-1,-1,-1,-1];
+let contadores = [-1,-1,-1,-1,-1,-1, -1, -1];
 //esta variable la voy a utilizar de bandera para saber si ya ejecuto la animación
 let entro = false;
 
