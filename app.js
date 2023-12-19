@@ -32,8 +32,8 @@ function crearBarra(id_barra){
 //selecciono todas las barras generales par aluego manipularlas
 let html = document.getElementById("html");
 crearBarra(html);
-let javascript = document.getElementById("javascript");
-crearBarra(javascript);
+let c = document.getElementById("c");
+crearBarra(c);
 let wordpress = document.getElementById("wordpress");
 crearBarra(wordpress);
 let photoshop = document.getElementById("photoshop");
