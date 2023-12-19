@@ -82,7 +82,7 @@ function efectoHabilidades(){
             pintarBarra(visual, 14, 6, intervalVisual);
         },100);
         const intervalCode = setInterval(function(){
-            pintarBarra(code, 17, 7, intervalCode);
+            pintarBarra(code, 16, 7, intervalCode);
         },100);
     }
 }
