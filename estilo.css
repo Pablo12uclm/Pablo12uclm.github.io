@@ -218,6 +218,7 @@ html{
     background-color: #e6e6e6;
     padding: 140px 0 100px 0;
     text-align: center;
+    border-top: 3px solid black
 }
 .resumen .contenido-seccion{
     max-width: 1000px;
