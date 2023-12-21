@@ -61,28 +61,28 @@ function efectoHabilidades(){
     if(distancia_skills>=300 && entro==false){
         entro = true;
         const intervalHtml = setInterval(function(){
-            pintarBarra(html, 15, 0, intervalHtml);
+            pintarBarra(html, 11, 0, intervalHtml);
         },100);
         const intervalC = setInterval(function(){
-            pintarBarra(c, 16, 1, intervalC);
+            pintarBarra(c, 12, 1, intervalC);
         },100);
         const intervalPython = setInterval(function(){
-            pintarBarra(python, 13, 2, intervalPython);
+            pintarBarra(python, 10, 2, intervalPython);
         },100);
         const intervalPrestashop= setInterval(function(){
-            pintarBarra(prestashop, 15, 3, intervalPrestashop);
+            pintarBarra(prestashop, 9, 3, intervalPrestashop);
         },100);
         const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 10, 4, intervalWordpress);
+            pintarBarra(wordpress, 8, 4, intervalWordpress);
         },100);
         const intervalMysql = setInterval(function(){
-            pintarBarra(mysql, 16, 5, intervalMysql);
+            pintarBarra(mysql, 13, 5, intervalMysql);
         },100);
         const intervalVisual = setInterval(function(){
-            pintarBarra(visual, 13, 6, intervalVisual);
+            pintarBarra(visual, 9, 6, intervalVisual);
         },100);
         const intervalCode = setInterval(function(){
-            pintarBarra(code, 16, 7, intervalCode);
+            pintarBarra(code, 13, 7, intervalCode);
         },100);
     }
 }
